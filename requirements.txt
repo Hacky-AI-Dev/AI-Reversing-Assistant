@@ -1,18 +1,4 @@
-# AI Reversing Assistant Requirements
-# Python 3.7+ required
-
-# HTTP client for async communication
-aiohttp>=3.8.0
-
-# Data validation and serialization
-pydantic>=1.10.0
-
-# Async support
-asyncio-compat>=0.1.2
-
-# Optional: For better type hints support
-typing-extensions>=4.0.0
-
-# Note: IDA Pro modules (idaapi, idautils, idc, etc.) are not available via pip
-# They are only available when running inside IDA Pro environment
-# This script will run in standalone mode when IDA Pro modules are not available
+aiohttp>=3.8.0,<4.0.0
+requests>=2.28.0,<3.0.0
+pydantic>=2.0.0,<3.0.0
+typing-extensions>=4.0.0,<5.0.0
