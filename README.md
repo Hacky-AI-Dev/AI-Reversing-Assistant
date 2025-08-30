@@ -19,6 +19,25 @@ An AI-powered plugin for IDA Pro that automates variable and function analysis t
 
 ## Installation
 
+### Prerequisites
+
+1. **Python Dependencies Installation**:
+   ```bash
+   # Install required Python packages
+   pip install -r requirements.txt
+   
+   # Or install packages individually:
+   pip install aiohttp>=3.8.0 pydantic>=1.10.0 asyncio-compat>=0.1.2 typing-extensions>=4.0.0
+   ```
+
+2. **Verify Python Version**:
+   ```bash
+   python --version
+   # Should be Python 3.7 or later (3.11 recommended)
+   ```
+
+### Plugin Installation
+
 1. Download the `ai_reversing_assistant.py` file
 2. Place it in your IDA Pro plugins directory
 3. Configure your API key (see Setup section below)
@@ -90,6 +109,25 @@ IDA Pro에서 AI를 활용하여 변수와 함수를 자동으로 분석하고 �
 - [hacky-ai.com](https://hacky-ai.com)에서 발급받은 유효한 API 키
 
 ## 설치
+
+### 사전 요구사항
+
+1. **Python 의존성 패키지 설치**:
+   ```bash
+   # 필요한 Python 패키지 설치
+   pip install -r requirements.txt
+   
+   # 또는 개별 패키지 설치:
+   pip install aiohttp>=3.8.0 pydantic>=1.10.0 asyncio-compat>=0.1.2 typing-extensions>=4.0.0
+   ```
+
+2. **Python 버전 확인**:
+   ```bash
+   python --version
+   # Python 3.7 이상이어야 함 (3.11 권장)
+   ```
+
+### 플러그인 설치
 
 1. `ai_reversing_assistant.py` 파일을 다운로드
 2. IDA Pro 플러그인 디렉토리에 파일을 복사
